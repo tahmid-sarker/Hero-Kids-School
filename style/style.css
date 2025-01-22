@@ -9,7 +9,6 @@
 }
 
 /* Global Styles */
-
 .title-font {
   font-family: "Quicksand", sans-serif;
   font-optical-sizing: auto;
@@ -25,7 +24,6 @@
 }
 
 /* Header Styles */
-
 header {
   display: flex;
   justify-content: space-between;
@@ -107,7 +105,6 @@ header button:hover {
 }
 
 /* Section 1: Marquee Styles */
-
 #section-1 marquee {
   color: darkred;
   font-size: 1.25rem;
@@ -120,7 +117,6 @@ header button:hover {
 }
 
 /* Section 2: Hero */
-
 #section-2 {
   display: flex;
   justify-content: space-between;
@@ -174,7 +170,6 @@ header button:hover {
 }
 
 /* Section 3: Standard Curriculum */
-
 #section-3 {
   padding: 1.25rem 8.75rem;
   background-image: url("/assets/bg.png");
@@ -318,7 +313,6 @@ header button:hover {
 }
 
 /* Section 4: Our Stories */
-
 #section-4 {
   padding: 1.25rem 8.75rem;
   background: url("/assets/bg.png"),
@@ -374,12 +368,16 @@ header button:hover {
   border-radius: 2.996rem;
   background: rgb(60, 216, 232);
   border: none;
-
   color: rgb(255, 255, 255);
   font-size: 0.959rem;
   line-height: 1.798rem;
   letter-spacing: 0%;
   text-transform: capitalize;
+  cursor: pointer;
+}
+
+#section-4 .left-div button:hover {
+  background: rgb(0, 128, 255);
 }
 
 #section-4 .right-div {
@@ -388,7 +386,10 @@ header button:hover {
   gap: 1.25rem;
 }
 
-#section-4 .right-div .story-card-2, .story-card-3, .story-card-4, .story-card-5 {
+#section-4 .right-div .story-card-2,
+.story-card-3,
+.story-card-4,
+.story-card-5 {
   position: relative;
   width: 18.168rem;
   height: 18.851rem;
@@ -410,8 +411,16 @@ header button:hover {
   cursor: pointer;
 }
 
+#section-4 .right-div button:hover {
+  background: #77B254;
+}
+
 #section-4 .right-div .story-card-3 button {
   background: rgb(93, 88, 240);
+}
+
+#section-4 .right-div .story-card-3 button:hover {
+  background: rgb(0, 0, 128);
 }
 
 .story-btn-container {
@@ -431,4 +440,89 @@ header button:hover {
   font-weight: bold;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   cursor: pointer;
+}
+
+/* Footer */
+footer {
+  padding: 1.25rem 8.75rem;
+  background: rgb(1, 172, 253);
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 3.125rem;
+}
+
+footer .kids-education .title {
+  display: flex;
+  gap: 0.625rem;
+}
+
+footer .kids-education img {
+  width: 4.375rem;
+  height: 4.375rem;
+}
+
+footer .kids-education h1 {
+  color: white;
+  font-size: 1.875rem;
+  line-height: 2.344rem;
+  letter-spacing: 0%;
+  margin-bottom: 1.125rem;
+}
+
+footer .kids-education p {
+  color: white;
+  font-size: 1.125rem;
+  line-height: 1.563rem;
+  letter-spacing: 0%;
+  width: 25rem;
+  height: 6.25rem;
+}
+
+footer .about-school h2 {
+  color: white;
+  font-size: 1.5rem;
+  line-height: 1.875rem;
+  letter-spacing: 0%;
+}
+
+footer .about-school ul {
+  list-style: none;
+}
+
+footer .about-school ul li {
+  margin: 0.625rem 0;
+  font-size: 1.25rem;
+  line-height: 1.875rem;
+  letter-spacing: 0%;
+}
+
+footer .about-school ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+footer .about-school ul li a:hover {
+  color: rgb(17, 17, 17);
+}
+
+footer .keep-in-touch h2 {
+  color: white;
+  font-size: 1.5rem;
+  line-height: 1.875rem;
+  letter-spacing: 0%;
+}
+
+footer .keep-in-touch {
+  display: flex;
+  flex-direction: column;
+  gap: 1.125rem;
+}
+
+footer .copy-right {
+  grid-column: 2 / 3;
+  color: white;
+  font-size: 1.125rem;
+  line-height: 1.563rem;
+  letter-spacing: 0%;
+  text-align: center;
 }

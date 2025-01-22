@@ -20,7 +20,6 @@
   }
 
   /* Section 2: Marquee */
-
   #section-1 {
     display: none;
   }
@@ -135,5 +134,13 @@
 
   .story-btn-container {
     margin: 1.125em 0;
+  }
+
+  /* Footer */
+  footer {
+    padding: 1.25rem;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2rem;
   }
 }
