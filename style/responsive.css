@@ -26,7 +26,7 @@
 
   /* Section 2: Hero */
   #section-2 {
-    padding: 1.25rem 1.25rem;
+    padding: 1.25rem;
     display: flex;
     flex-direction: column-reverse;
     gap: 1.25em;
@@ -72,5 +72,22 @@
   #section-2 img {
     width: 100%;
     height: auto;
+  }
+  /* Section 3: Standard Curriculum */
+  #section-3 {
+    padding: 1.25rem;
+  }
+
+  #section-3 h1 {
+    font-size: 2rem;
+    margin-bottom: 1.25rem;
+  }
+
+  #section-3 .curriculum-card {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .arrow {
+    display: none;
   }
 }
