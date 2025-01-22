@@ -1,0 +1,121 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Quicksand:wght@300..700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
+
+/* Reset CSS */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Global Styles */
+
+.title-font {
+  font-family: "Quicksand", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.font {
+  font-family: "Raleway", serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+
+/* Header Styles */
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: navy;
+  padding: 0.625rem 1.25rem;
+}
+
+header div {
+  display: flex;
+  align-items: center;
+  gap: 0.625rem;
+}
+
+header div img {
+  width: 3.875rem;
+  height: 3.875rem;
+}
+
+header h1 {
+  color: white;
+  font-size: 2rem;
+  line-height: 1.875rem;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+header ul {
+  display: flex;
+  list-style: none;
+  gap: 2rem;
+}
+
+header ul li a {
+  text-decoration: none;
+  font-size: 1.25rem;
+  line-height: 1.875rem;
+  letter-spacing: 0%;
+}
+
+.home {
+  color: orange;
+}
+
+.about {
+  color: skyblue;
+}
+
+.facilities {
+  color: rgb(5, 212, 223);
+}
+
+.admission {
+  color: rgb(93, 88, 239);
+}
+
+header ul li a:hover {
+  color: rgb(17, 17, 17);
+}
+
+header button {
+  background: orange;
+  color: white;
+  font-size: 1.25rem;
+  line-height: 1.875rem;
+  letter-spacing: 0%;
+  padding: 0.625rem;
+  margin: 0 0.625rem;
+  border: none;
+  border-radius: 0.75rem;
+  cursor: pointer;
+}
+
+header button:hover {
+  background: darkorange
+}
+
+.menubar {
+  display: none;
+}
+
+/* Section 1: Marquee Styles */
+
+marquee {
+  color: darkred;
+  font-size: 1.25rem;
+  line-height: 1.875rem;
+  letter-spacing: 0%;
+  text-align: center;
+  padding: 0.625rem;
+  background: rgb(247, 247, 247);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
