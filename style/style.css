@@ -30,8 +30,8 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background: navy;
-  padding: 0.625rem 1.25rem;
+  background: #FFFAEC;
+  padding: 1.25rem 8.75rem;
 }
 
 header div {
@@ -46,7 +46,7 @@ header div img {
 }
 
 header h1 {
-  color: white;
+  color: black;
   font-size: 2rem;
   line-height: 1.875rem;
   letter-spacing: 0%;
@@ -92,15 +92,14 @@ header button {
   font-size: 1.25rem;
   line-height: 1.875rem;
   letter-spacing: 0%;
-  padding: 0.625rem;
-  margin: 0 0.625rem;
+  padding: 0.625rem 2.5rem;
   border: none;
   border-radius: 0.75rem;
   cursor: pointer;
 }
 
 header button:hover {
-  background: darkorange
+  background: darkorange;
 }
 
 .menubar {
@@ -109,13 +108,66 @@ header button:hover {
 
 /* Section 1: Marquee Styles */
 
-marquee {
+#section-1 marquee {
   color: darkred;
   font-size: 1.25rem;
   line-height: 1.875rem;
   letter-spacing: 0%;
   text-align: center;
   padding: 0.625rem;
-  background: rgb(247, 247, 247);
+  background: #E8F9FF;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Section 2: Hero */
+
+#section-2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.25rem 8.75rem;
+  gap: 3.125rem;
+}
+
+#section-2 .hero-container {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+#section-2 h1 {
+  font-size: 3.5rem;
+  line-height: 3.813rem;
+  letter-spacing: 0%;
+}
+
+#section-2 p {
+  font-size: 1.25rem;
+  line-height: 1.563rem;
+  letter-spacing: 0%;
+}
+
+#section-2 .empowering {
+  color: #fea301;
+}
+
+#section-2 .towards {
+  color: #01acfd;
+}
+
+#section-2 button {
+  padding: 1.25rem 2.5rem;
+  background-color: black;
+  color: white;
+  border: none;
+  border-radius: 0.75rem;
+  font-size: 1rem;
+  font-weight: bold;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+}
+
+#section-2 button:hover {
+  background-color: darkgray;
+  color: black;
 }
