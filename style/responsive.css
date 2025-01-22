@@ -10,7 +10,8 @@
 
   header h1,
   header ul,
-  header button {
+  header button,
+  .left-div {
     display: none;
   }
 
@@ -87,7 +88,52 @@
     grid-template-columns: repeat(1, 1fr);
   }
 
-  .arrow {
+  #section-3 .arrow {
     display: none;
+  }
+
+  /* Section 4: Our Stories */
+  #section-4 {
+    padding: 1.25rem;
+  }
+
+  #section-4 h1 {
+    font-size: 2rem;
+    line-height: 3.594rem;
+    margin-bottom: 1.25rem;
+  }
+
+  #section-4 .right-div h2 {
+    margin: 0.892rem 2.038rem 1.249rem 1.411rem;
+    font-size: 0.571rem;
+    font-weight: 700;
+    line-height: 1.069rem;
+  }
+
+  #section-4 .right-div img {
+    width: 10.829rem;
+    height: 6.587rem;
+  }
+
+  #section-4 .right-div .story-card-2,
+  .story-card-3,
+  .story-card-4,
+  .story-card-5 {
+    width: 10.818rem;
+    height: 11.224rem;
+    background: rgb(255, 255, 255);
+  }
+
+  #section-4 .right-div button {
+    width: 6.494rem;
+    height: 1.427rem;
+    left: 1.427rem;
+    top: 5.873rem;
+    border-radius: 1.784rem;
+    font-size: 0.571rem;
+  }
+
+  .story-btn-container {
+    margin: 1.125em 0;
   }
 }

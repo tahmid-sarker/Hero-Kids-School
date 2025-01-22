@@ -210,7 +210,7 @@ header button:hover {
   letter-spacing: 0%;
 }
 
-#section-3 .card-1 {
+#section-3 .curriculum-card-1 {
   text-align: center;
   padding: 2.5rem 1.5rem;
   box-sizing: border-box;
@@ -226,7 +226,7 @@ header button:hover {
     rgb(255, 255, 255);
 }
 
-#section-3 .card-2 {
+#section-3 .curriculum-card-2 {
   text-align: center;
   padding: 2.5rem 1.5rem;
   box-sizing: border-box;
@@ -242,7 +242,7 @@ header button:hover {
     rgb(255, 255, 255);
 }
 
-#section-3 .card-3 {
+#section-3 .curriculum-card-3 {
   text-align: center;
   padding: 2.5rem 1.5rem;
   box-sizing: border-box;
@@ -308,10 +308,127 @@ header button:hover {
   margin-top: 5rem;
 }
 
-#section-3 .arrow-left, .arrow-right {
+#section-3 .arrow-left,
+.arrow-right {
   background-color: Orange;
   padding: 1.188rem 1.406rem;
   border-radius: 50%;
   color: white;
+  cursor: pointer;
+}
+
+/* Section 4: Our Stories */
+
+#section-4 {
+  padding: 1.25rem 8.75rem;
+  background: url("/assets/bg.png"),
+    linear-gradient(0deg, rgba(254, 163, 1, 0.3), rgba(255, 255, 255, 0.3) 100%);
+  background-position: top left bottom right;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#section-4 h1 {
+  margin: 3.75rem auto 5rem;
+  text-align: center;
+  font-size: 2.875rem;
+}
+
+#section-4 .story-cards h2 {
+  margin: 1.5rem 3.375rem 2.063rem 2.313rem;
+  font-size: 0.959rem;
+  font-weight: bold;
+}
+
+#section-4 .story-cards p {
+  color: rgb(102, 102, 102);
+  font-size: 0.959rem;
+  margin: 3.75rem 6.25rem 3.125rem 2.5rem;
+}
+
+#section-4 .story-cards img {
+  width: 100%;
+}
+
+#section-4 .story-cards {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 1.25rem;
+}
+
+#section-4 .left-div {
+  position: relative;
+  width: 33.767rem;
+  height: 39.408rem;
+  border-radius: 1rem;
+  background: rgb(255, 255, 255);
+}
+
+#section-4 .left-div button {
+  position: absolute;
+  width: 10.907rem;
+  height: 2.996rem;
+  left: 2.397rem;
+  top: 19.634rem;
+  border-radius: 2.996rem;
+  background: rgb(60, 216, 232);
+  border: none;
+
+  color: rgb(255, 255, 255);
+  font-size: 0.959rem;
+  line-height: 1.798rem;
+  letter-spacing: 0%;
+  text-transform: capitalize;
+}
+
+#section-4 .right-div {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.25rem;
+}
+
+#section-4 .right-div .story-card-2, .story-card-3, .story-card-4, .story-card-5 {
+  position: relative;
+  width: 18.168rem;
+  height: 18.851rem;
+  border-radius: 1rem;
+  background: rgb(255, 255, 255);
+}
+
+#section-4 .right-div button {
+  position: absolute;
+  width: 10.907rem;
+  height: 2.397rem;
+  left: 2.397rem;
+  top: 9.863rem;
+  border-radius: 2.996rem;
+  background: rgb(149, 178, 38);
+  border: none;
+  color: white;
+  font-size: 0.875rem;
+  cursor: pointer;
+}
+
+#section-4 .right-div .story-card-3 button {
+  background: rgb(93, 88, 240);
+}
+
+.story-btn-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 5rem 0;
+}
+
+.story-btn {
+  padding: 1.25rem 2.5rem;
+  background-color: black;
+  color: white;
+  border: none;
+  border-radius: 0.75rem;
+  font-size: 1rem;
+  font-weight: bold;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   cursor: pointer;
 }
